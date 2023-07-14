@@ -18,7 +18,7 @@ public class actitime_login {
 		Thread.sleep(3000);
 		driver.findElement(By.id("loginButton")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.linkText("Logout")).click();
+		//driver.findElement(By.linkText("Logout")).click();
 		
 	}
 
